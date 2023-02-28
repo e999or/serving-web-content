@@ -9,6 +9,7 @@
   <body class="text-center">
   <header th:insert="blocks/heder :: header"></header> <!-- blocks/heder - откуда брать файл,  :: header - конкретное название участка -->
   <h1>Страница HOME</h1>
+  <p>Click <a th:href="@{/hello}">here</a> to see a greeting.</p>
 
   <div th:insert="blocks/footer :: footer"></div>
   </body>
